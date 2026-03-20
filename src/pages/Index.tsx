@@ -35,7 +35,7 @@ export default function Index() {
           </span>
         </div>
         <a
-          href="https://vk.com/school19sochi"
+          href="https://vk.com/school19podslyshano"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-medium text-[#0d0d0d] border border-[#0d0d0d] px-5 py-2 rounded-full transition-all duration-300 hover:bg-[#0d0d0d] hover:text-white"
@@ -86,7 +86,7 @@ export default function Index() {
 
           <div className="opacity-0 animate-fade-in flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://vk.com/school19sochi"
+              href="https://vk.com/school19podslyshano"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 bg-[#0d0d0d] text-white font-semibold px-8 py-4 rounded-full text-base transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-black/20"
@@ -162,7 +162,7 @@ export default function Index() {
               Вступи в сообщество и стань частью школьной жизни СОШ №19
             </p>
             <a
-              href="https://vk.com/school19sochi"
+              href="https://vk.com/school19podslyshano"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-white text-[#0d0d0d] font-bold px-10 py-4 rounded-full text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-black/40"
@@ -179,7 +179,7 @@ export default function Index() {
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[#aaa]">
           <span>МОБУ СОШ №19 · г. Сочи</span>
           <a
-            href="https://vk.com/school19sochi"
+            href="https://vk.com/school19podslyshano"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-[#aaa] hover:text-[#0d0d0d] transition-colors"

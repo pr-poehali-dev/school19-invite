@@ -23,10 +23,17 @@ export default function Index() {
     <main className="font-golos min-h-screen bg-white text-[#0d0d0d] selection:bg-[#0d0d0d] selection:text-white">
 
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5 bg-white/90 backdrop-blur-sm border-b border-[#e8e8e8]">
-        <span className="text-sm font-semibold tracking-widest uppercase text-[#0d0d0d]">
-          СОШ №19 · Сочи
-        </span>
+      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-3 bg-white/90 backdrop-blur-sm border-b border-[#e8e8e8]">
+        <div className="flex items-center gap-3">
+          <img
+            src="https://cdn.poehali.dev/projects/bdf83579-e88d-45d1-aeb4-be5bfba03adc/bucket/ca131a59-3cd8-43e9-9e11-dccc8e299a52.jpg"
+            alt="Логотип СОШ №19"
+            className="w-9 h-9 rounded-full object-cover"
+          />
+          <span className="text-sm font-semibold tracking-widest uppercase text-[#0d0d0d]">
+            СОШ №19 · Сочи
+          </span>
+        </div>
         <a
           href="https://vk.com/school19sochi"
           target="_blank"
@@ -49,6 +56,13 @@ export default function Index() {
         </div>
 
         <div className="relative max-w-3xl mx-auto">
+          <div className="opacity-0 animate-fade-up flex justify-center mb-6">
+            <img
+              src="https://cdn.poehali.dev/projects/bdf83579-e88d-45d1-aeb4-be5bfba03adc/bucket/ca131a59-3cd8-43e9-9e11-dccc8e299a52.jpg"
+              alt="Логотип СОШ №19"
+              className="w-24 h-24 rounded-full object-cover shadow-lg"
+            />
+          </div>
           <p className="opacity-0 animate-fade-up text-xs font-semibold tracking-[0.25em] uppercase text-[#888] mb-8">
             МОБУ СОШ №19 г. Сочи
           </p>
